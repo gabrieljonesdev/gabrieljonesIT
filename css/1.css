@@ -1,0 +1,57 @@
+/* Generale */
+body {
+  font-family: "Handjet", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1, h2, h3, .txt {
+  color: #51d7a8;
+}
+
+/* Stile header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 900px; /* Limita l'altezza per l'auto ridimensionamento */
+}
+
+.header-right h1 {
+  margin: 0;
+  font-size: 5em;
+}
+
+.header-right p {
+  margin: 5px 0;
+  font-size: 2em;
+}
+
+/* Classe txt */
+.txt {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.handjet-<uniquifier> {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
