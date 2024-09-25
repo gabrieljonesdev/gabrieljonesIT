@@ -3,26 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sito Personalizzato</title>
-  <link rel="stylesheet" href="css/1.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Progetto Bootstrap Italia</title>
 </head>
 <body>
-  <header>
-    <div class="header-left">
-      <img src="img.png" alt="Logo" class="logo">
+    
+    <div class="it-header-slim-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="it-header-slim-wrapper-content">
+              <a class="d-lg-block navbar-brand" href="https://gabrieljones.it">Gabriel Jones</a>
+              <div class="it-header-slim-right-zone">
+                <a href="#" class="btn btn-primary btn-icon btn-full">
+                  <span class="rounded-icon">
+                    <svg class="icon icon-primary">
+                      <use href="/bootstrap-italia/dist/svg/sprites.svg#it-user"></use>
+                    </svg>
+                  </span>
+                  <span class="d-none d-lg-block">Accedi all'area personale</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="header-right">
-      <h1>Benvenuto nel mio sito</h1>
-      <p>Questo è un esempio di layout per l'header.</p>
+  <div class="it-header-center-wrapper theme-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="it-header-center-content-wrapper">
+          <div class="it-brand-wrapper">
+            <a href="#">
+              <svg class="icon" aria-hidden="true">
+                <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
+              </svg>
+              <div class="it-brand-text">
+                <div class="it-brand-title">Gabiel Jones</div>
+                <div class="it-brand-tagline d-none d-md-block">#web-for-life</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  </header>
+  </div>
+</div>
 
-  <section>
-    <h2 class="txt">Sezione del sito</h2>
-    <p>Questo è un paragrafo di esempio per la sezione principale del sito.</p>
-  </section>
+  <link href="https://unpkg.com/bootstrap-italia@2.6.1/dist/css/bootstrap-italia.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/bootstrap-italia@2.6.1/dist/js/bootstrap-italia.bundle.min.js"></script>
+
 </body>
 </html>
